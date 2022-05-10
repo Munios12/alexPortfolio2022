@@ -1,11 +1,12 @@
-import "./App.css";
+import "./App_styles.scss";
+import { Header } from "./components/Header";
 
 function App() {
-  return (
-    <>
-      <h1>Hola este es mi nuevo portfolio</h1>
-    </>
-  );
+    return (
+        <>
+            <Header />
+        </>
+    );
 }
 
 export default App;
