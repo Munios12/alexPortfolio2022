@@ -174,12 +174,12 @@ body {
   -webkit-box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 0.7);
           box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 0.7);
   left: 40%;
-  z-index: 1;
   visibility: hidden;
   -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-transform: translateX(0vw);
           transform: translateX(0vw);
+  z-index: 1;
 }
 
 .aside__menu .aside__nav {
@@ -305,5 +305,6 @@ body {
 .is-cristal {
   -webkit-filter: blur(3px);
           filter: blur(3px);
+  overflow: hidden;
 }
 /*# sourceMappingURL=header_styles.css.map */

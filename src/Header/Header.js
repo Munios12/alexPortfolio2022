@@ -41,7 +41,7 @@ export const Header = () => {
                     <div className="nav__hamburguer-menu"></div>
                     <div className="nav__hamburguer-menu"></div>
                 </button>
-                <aside className="aside__menu" ishidden={false}>
+                <aside className="aside__menu" ishidden="false">
                     <nav className="aside__nav">
                         <ol className="asideMenu__list">
                             <li className="list__item">

@@ -119,10 +119,11 @@
     width: 60%;
     box-shadow: -10px 0px 30px -15px $navy-shadow;
     left: 40%;
-    z-index: 1;
+
     visibility: hidden;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     transform: translateX(0vw);
+    z-index: 1;
 
     .aside__nav {
         display: flex;
@@ -193,4 +194,5 @@
 }
 .is-cristal {
     filter: blur(3px);
+    overflow: hidden;
 }
