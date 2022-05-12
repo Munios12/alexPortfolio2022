@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import "./header_styles.scss";
 
 export const Header = () => {
@@ -33,7 +33,7 @@ export const Header = () => {
     };
 
     return (
-        <>
+        <Fragment>
             <header className="header">
                 <h1 className="header__title">Ñ</h1>
                 <button onClick={showAnim} className="header__nav">
@@ -41,7 +41,7 @@ export const Header = () => {
                     <div className="nav__hamburguer-menu"></div>
                     <div className="nav__hamburguer-menu"></div>
                 </button>
-                <aside className="aside__menu" isHidden={false}>
+                <aside className="aside__menu" ishidden={false}>
                     <nav className="aside__nav">
                         <ol className="asideMenu__list">
                             <li className="list__item">
@@ -78,6 +78,6 @@ export const Header = () => {
                     <p className="falseButton__text">Sobre mi !</p>
                 </div>
             </section>
-        </>
+        </Fragment>
     );
 };
