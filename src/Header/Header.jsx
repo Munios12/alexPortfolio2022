@@ -66,8 +66,8 @@ export const Header = () => {
     };
 
     return (
-        <Fragment>
-            <header className="header">
+        <>
+            <header className="header" id="home">
                 <h1 className="header__title">Ñ</h1>
 
                 <button onClick={showAnim} className="header__nav">
@@ -79,7 +79,9 @@ export const Header = () => {
                     <nav className="aside__nav">
                         <ol className="asideMenu__list">
                             <li className="list__item home">
-                                <a href="#">Home</a>
+                                <a href="#home" onClick={handleAnchorTags}>
+                                    Home
+                                </a>
                             </li>
                             <li className="list__item about">
                                 <a href="#aboutMe" onClick={handleAnchorTags}>
@@ -87,7 +89,9 @@ export const Header = () => {
                                 </a>
                             </li>
                             <li className="list__item works">
-                                <a href="#">Works</a>
+                                <a href="#works" onClick={handleAnchorTags}>
+                                    Works
+                                </a>
                             </li>
                             <li className="list__item contact">
                                 <a href="#">Contact</a>
@@ -116,6 +120,6 @@ export const Header = () => {
                     </p>
                 </div>
             </section>
-        </Fragment>
+        </>
     );
 };

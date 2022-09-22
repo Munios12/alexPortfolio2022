@@ -1,5 +1,6 @@
 @import "../App_styles.scss";
 .header {
+    min-height: 30vh;
     display: flex;
     flex-direction: row;
     gap: 200px;
@@ -52,6 +53,7 @@
 }
 
 .section {
+    max-height: 70vh;
     padding: 0px 30px;
 
     .section__title {
@@ -83,6 +85,7 @@
     .section__bio {
         color: $tertiary-color-text;
         text-shadow: 0px 2px 7px #020d1c;
+        text-align: justify;
 
         .bio__word {
             color: $secondary-color;
@@ -95,14 +98,14 @@
         border-radius: 4px;
         color: $secondary-color;
         padding: 15px;
-        width: 48%;
+        width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 30px;
         .falseButton__text {
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-family: "Source Code Pro", monospace;
         }
     }
@@ -151,7 +154,7 @@
         }
     }
     .asideMenu__list li:nth-child(1)::before {
-        content: "01.";
+        content: "00.";
         color: $secondary-color;
         display: flex;
         align-items: center;
@@ -159,7 +162,7 @@
         margin-bottom: 5px;
     }
     .asideMenu__list li:nth-child(2)::before {
-        content: "02.";
+        content: "01.";
         color: $secondary-color;
         display: flex;
         align-items: center;
@@ -167,7 +170,7 @@
         margin-bottom: 5px;
     }
     .asideMenu__list li:nth-child(3)::before {
-        content: "03.";
+        content: "02.";
         color: $secondary-color;
         display: flex;
         align-items: center;
@@ -175,7 +178,7 @@
         margin-bottom: 5px;
     }
     .asideMenu__list li:nth-child(4)::before {
-        content: "04.";
+        content: "03.";
         color: $secondary-color;
         display: flex;
         align-items: center;
