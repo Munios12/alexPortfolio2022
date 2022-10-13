@@ -7,7 +7,8 @@ export const Contact = () => {
             <section className="sectionContact" id="contact">
                 <h1 className="sectionContact__title">Contact</h1>
                 <p className="sectionContact__text">
-                    Check this out if you want to know more about me.
+                    If you still want to know more about me, check my social
+                    networks.
                 </p>
                 <ul className="socialmedia-icons__list">
                     <li className="socialmedia-icon icon__1">
