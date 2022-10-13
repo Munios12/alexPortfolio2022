@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./header_styles.scss";
 
 export const Header = () => {
@@ -94,10 +94,12 @@ export const Header = () => {
                                 </a>
                             </li>
                             <li className="list__item contact">
-                                <a href="#">Contact</a>
+                                <a href="#contact" onClick={handleAnchorTags}>
+                                    Contact
+                                </a>
                             </li>
                         </ol>
-                        <a className="falseButton-asideMenu">Curriculum</a>
+                        {/* <a className="falseButton-asideMenu">Curriculum</a> */}
                     </nav>
                 </aside>
             </header>
@@ -114,11 +116,11 @@ export const Header = () => {
                     <span className="bio__word"> portfolio</span> adding it new
                     and modern projects.
                 </p>
-                <div className="falseButton">
+                {/* <div className="falseButton">
                     <p className="falseButton__text" onClick={handleAnchorTags}>
                         All about me!
                     </p>
-                </div>
+                </div> */}
             </section>
         </>
     );

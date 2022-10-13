@@ -1,5 +1,6 @@
 import { AboutMe } from "./AboutMe/AboutMe";
 import "./App_styles.scss";
+import { Contact } from "./Contact/Contact";
 import { Header } from "./Header/Header";
 import { Works } from "./Works/Works";
 
@@ -9,6 +10,7 @@ function App() {
             <Header />
             <AboutMe />
             <Works />
+            <Contact />
         </>
     );
 }
