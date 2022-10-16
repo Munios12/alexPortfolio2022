@@ -62,3 +62,19 @@
     width: 3rem;
     color: $secondary-color;
 }
+
+@media (min-width: 742px) {
+    .sectionContact {
+        padding: 0px 200px;
+    }
+
+    .sectionContact__title {
+        &::after {
+            width: 100%;
+        }
+    }
+
+    .socialmedia-icon {
+        width: 2%;
+    }
+}

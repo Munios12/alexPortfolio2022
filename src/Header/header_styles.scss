@@ -154,6 +154,7 @@
             color: #ccd6f6;
         }
     }
+
     .asideMenu__list li:nth-child(1)::before {
         content: "00.";
         color: $secondary-color;
@@ -199,4 +200,107 @@
 .is-cristal {
     filter: blur(3px);
     overflow: hidden;
+}
+
+.desktop-navbar {
+    display: none;
+}
+
+@media (min-width: 742px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        min-height: auto;
+
+        .header__title {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .desktop-navbar {
+        display: contents;
+        font-family: "Roboto Mono", monospace;
+        font-size: 0.9rem;
+
+        & a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .desktop-navbar__list {
+            color: $secondary-color-text;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style: none;
+            gap: 2rem;
+        }
+        .desktop-navbar__item {
+            min-width: 90px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .desktop-navbar__list li:nth-child(1)::before {
+            content: "01.";
+            color: $secondary-color;
+            display: flex;
+            justify-content: left;
+            flex-direction: row;
+            text-align: right;
+            margin-right: 5px;
+        }
+        .desktop-navbar__list li:nth-child(2)::before {
+            content: "02.";
+            color: $secondary-color;
+            display: flex;
+            justify-content: left;
+            flex-direction: row;
+            text-align: right;
+            margin-right: 5px;
+        }
+        .desktop-navbar__list li:nth-child(3)::before {
+            content: "03.";
+            color: $secondary-color;
+            display: flex;
+            justify-content: left;
+            flex-direction: row;
+            text-align: right;
+            margin-right: 5px;
+        }
+        .desktop-navbar__list li:nth-child(4)::before {
+            content: "04.";
+            color: $secondary-color;
+            display: flex;
+            justify-content: left;
+            flex-direction: row;
+            text-align: right;
+            margin-right: 5px;
+        }
+    }
+
+    .section {
+        margin: 0px;
+        padding: 20px 200px;
+        width: fit-content;
+
+        .section__myname {
+            font-size: 5rem;
+        }
+
+        .section__profesion {
+            font-size: 3.5rem;
+        }
+
+        .section__bio {
+            height: fit-content;
+            max-width: 1000px;
+        }
+    }
 }

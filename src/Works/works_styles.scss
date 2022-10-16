@@ -94,3 +94,26 @@
 
     font-size: large;
 }
+
+@media (min-width: 742px) {
+    .sectionWorks {
+        padding: 0px 200px;
+    }
+    .sectionWorks__title {
+        justify-content: flex-start;
+        &::after {
+            width: 87%;
+            justify-content: baseline;
+        }
+    }
+
+    .work1 {
+        max-width: 350px;
+        margin: 5px;
+    }
+
+    .works__projectList {
+        align-items: baseline;
+        flex-direction: row;
+    }
+}

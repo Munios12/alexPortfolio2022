@@ -70,11 +70,29 @@ export const Header = () => {
             <header className="header" id="home">
                 <h1 className="header__title">Ñ</h1>
 
+                <nav className="desktop-navbar">
+                    <ol className="desktop-navbar__list">
+                        <li className="desktop-navbar__item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li className="desktop-navbar__item">
+                            <a href="#aboutMe">About</a>
+                        </li>
+                        <li className="desktop-navbar__item">
+                            <a href="#works">Works</a>
+                        </li>
+                        <li className="desktop-navbar__item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ol>
+                </nav>
+
                 <button onClick={showAnim} className="header__nav">
                     <div className="nav__hamburguer-menu"></div>
                     <div className="nav__hamburguer-menu"></div>
                     <div className="nav__hamburguer-menu"></div>
                 </button>
+
                 <aside className="aside__menu" ishidden="false">
                     <nav className="aside__nav">
                         <ol className="asideMenu__list">
@@ -104,23 +122,18 @@ export const Header = () => {
                 </aside>
             </header>
             <section className="section">
-                <h1 className="section__title">Hi, my name is</h1>
+                <h1 className="section__title">Welcome 👋🏻 My name is</h1>
                 <h2 className="section__myname">Alejandro Muñoz Navarro</h2>
                 <h3 className="section__profesion">
-                    A junior frontend developer.
+                    A junior frontend developer 🧑🏻‍💻
                 </h3>
                 <p className="section__bio">
-                    Studying web programming in ISDI Coders Academy. I love
-                    build and design modern apps & websites. Currently I'm
-                    working on my
-                    <span className="bio__word"> portfolio</span> adding it new
-                    and modern projects.
+                    Web programming student in ISDI Coders Academy. I love build
+                    and design modern apps & websites. Currently I'm working on
+                    my
+                    <span className="bio__word"> portfolio</span> adding new and
+                    modern projects.
                 </p>
-                {/* <div className="falseButton">
-                    <p className="falseButton__text" onClick={handleAnchorTags}>
-                        All about me!
-                    </p>
-                </div> */}
             </section>
         </>
     );
