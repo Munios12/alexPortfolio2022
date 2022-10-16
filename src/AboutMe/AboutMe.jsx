@@ -15,7 +15,7 @@ export const AboutMe = () => {
                         vida. A pesar de mi carrera como
                         <span className="sectionAbout__resaltedBio">
                             {" "}
-                            geologo
+                            geólogo
                         </span>
                         , siempre he tenido la incertidumbre de si eso era lo
                         que realmente quería.
@@ -41,7 +41,7 @@ export const AboutMe = () => {
                         Actualmente estoy en
                         <span className="sectionAbout__resaltedBio">
                             {" "}
-                            busqueda activa de trabajo
+                            búsqueda activa de trabajo
                         </span>
                         .
                     </p>
