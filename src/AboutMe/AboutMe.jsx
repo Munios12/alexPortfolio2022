@@ -52,7 +52,7 @@ export const AboutMe = () => {
                         learning React. On September I've finished a bootcamp in
                         <span className="sectionAbout__resaltedBio">
                             {" "}
-                            ISDI Coders Academy
+                            ISDI Coders Academy.{" "}
                         </span>
                         Currently looking for a job.
                     </p>
