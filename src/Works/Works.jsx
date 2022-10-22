@@ -17,7 +17,7 @@ export const Works = () => {
                                     Bootcamp final project. In Gaming Share
                                     users can register and login. Explore a
                                     videogame list with game-details coming from
-                                    RAWG API, save them to their favourite list
+                                    RAWG API, save them to your favourite list
                                     and leave a comment.
                                 </p>
                             </div>
@@ -45,9 +45,10 @@ export const Works = () => {
 
                             <div className="work1__card-description">
                                 <p>
-                                    Bootcamp project. Play the popular spanish
-                                    television game. Answer on question for each
-                                    letter in abcd before you run out of time.
+                                    First Bootcamp project. Play the popular
+                                    spanish television game. You have 150 second
+                                    to answer a fully list of questions.
+                                    Complete full 'rosco' if you dare.
                                 </p>
                             </div>
                             <div className="work1__card-links">
@@ -60,7 +61,7 @@ export const Works = () => {
 
                                 <a
                                     className="work1__card-applink"
-                                    href="https://202204-w01-alejandro-munoz.netlify.app/"
+                                    href="https://pasapalabra-game.vercel.app/"
                                 >
                                     Visit here
                                 </a>

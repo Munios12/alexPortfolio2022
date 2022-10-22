@@ -8,45 +8,56 @@ export const AboutMe = () => {
                 <h1 className="sectionAbout__title">About Me</h1>
                 <div className="sectionAbout__textContainer">
                     <p className="sectionAbout__bio bio1">
-                        Encantado de que estes aquí. Mi nombre es Alejandro y
-                        estoy estudiando programacion web en ISDI Coders
-                        Academy. Mis inicios en la programacion web se remontan
-                        a 2020 debido a un sentimiento de reorientacion de mi
-                        vida. A pesar de mi carrera como
+                        Welcome to my portfolio. Im Alejandro, self-taught and
+                        student in ISDI Coders academy. I started to learn code
+                        in 2020 as soon I had a reorientation feeling about my
+                        profesional career. Despite my
                         <span className="sectionAbout__resaltedBio">
                             {" "}
-                            geólogo
+                            Geology{" "}
                         </span>
-                        , siempre he tenido la incertidumbre de si eso era lo
-                        que realmente quería.
+                        degree, I've always have doubts about my future.
                     </p>
+                    {/* 
+                        Welcome to my portfolio. Im Alejandro, self-taught and student in ISDI Coders academy.
+                        I started web dev in 2020 as soon I had a reorientation feeling about my profesional career. Despite 
+                        my Geology degree, i've always have doubts about my future. 
+
+                        Two friends of mine introduce me in web dev. I realise that I was really happy doing this
+                        so I started my self-taught travel, starting with Python, then HTML, CSS and JS.
+                        Starting with cheapers courses at Udemy that I fondly remember, especially those from 
+                        Jonas. when I started my very first personal projects.
+
+                        Later, as my fundamentals was established, I started learning React. 
+                        I liked a lot so I decided to starting a bootcamp in ISDI Coders. Check my last project in this portfolio and follow me in social media.
+
+                        Currently Im looking for a job.
+
+
+                    */}
                     <p className="sectionAbout__bio bio2">
-                        Me introduje gracias a dos amigos que se dedican a la
-                        programacion web. Ello me llevó a estudiar primero
-                        Python pero rápipademente ya estaba estudiando HTML, CSS
-                        y JS. Comencé con cursos en Udemy que recuerdo con mucho
-                        cariño, especialmente los de
+                        Two friends of mine introduce me in web dev. Liked a
+                        lot, so I take a few online courses of Python then HTML,
+                        CSS and JS. I fondly remember Udemy courses, especially
+                        those from
                         <span className="sectionAbout__resaltedBio">
                             {" "}
                             Jonas Schmedtmann
                         </span>
-                        . Justo ahí fue donde realicé mis primeros proyectos
-                        personales.
+                        . Thats the exact point when I choose this as my future
+                        profesional career.
                     </p>
                     <p className="sectionAbout__bio bio3">
-                        Mas adelante, una vez ya tenia una buena base, comencé
-                        con React. Varios de los proyectos que hice por
-                        entonces, los econtrarás en este portfolio. Supe que el
-                        siguiente paso, pasaba por estudiar un bootcamp.
-                        Actualmente estoy en
+                        Later, as my fundamentals was established, I started
+                        learning React. On September I've finished a bootcamp in
                         <span className="sectionAbout__resaltedBio">
                             {" "}
-                            búsqueda activa de trabajo
+                            ISDI Coders Academy
                         </span>
-                        .
+                        Currently looking for a job.
                     </p>
                     <p className="sectionAbout__bio">
-                        Estos son algunas de las tecnologías que más domino:
+                        I feel very comfortable working with this technologies:
                     </p>
                 </div>
 
