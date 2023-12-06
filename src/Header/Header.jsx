@@ -128,11 +128,10 @@ export const Header = () => {
                     A junior frontend developer 🧑🏻‍💻
                 </h3>
                 <p className="section__bio">
-                    Web programming student in ISDI Coders Academy. I love build
-                    and design modern apps & websites. Currently I'm working on
-                    my
-                    <span className="bio__word"> portfolio</span> adding new and
-                    modern projects.
+                    Web developer raised at ISDI Coders Academy. I love build
+                    and design modern apps & websites. Check my
+                    <span className="bio__word"> portfolio</span> where I share
+                    my new and modern projects.
                 </p>
             </section>
         </>
